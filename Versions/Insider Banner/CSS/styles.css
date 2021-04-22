@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    width: 300px;
+    height: 250px;
+    background-image: url("../Assets/Images/png/flowerdust.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.big-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.small-container {
+    width: 110px;
+    position: absolute;
+    overflow: hidden;
+    top: 40px;
+    left: 186px;
+}
+
+.slogan {
+    width: 100%;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 11px;
+    color: #AD0B6D;
+    position: relative;
+    letter-spacing: 0.3px;
+    left: 0px;
+}
+
+#magic-wand {
+    width: 105px;
+    position: absolute;
+    left: -110px;
+    top: -90px;
+}
+
+#magic-dust {
+    /* to support Safari and Android browser */
+    -webkit-transform: rotate(45deg);
+    /* to support IE 9 */
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 80px;
+    position: absolute;
+    left: -7px;
+    top: -10px;
+    z-index: 2;
+}
+
+#logo {
+    width: 106px;
+    padding: 0;
+    position: absolute;
+    top: 45px;
+    left: 35px;
+}
